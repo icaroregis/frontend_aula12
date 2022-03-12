@@ -1,6 +1,6 @@
 .header {
   height: 22px;  
-  background-color: #222222; 
+  background-color: #222222;  
 }
 
 .headerChild {
@@ -21,7 +21,7 @@
 /***main***/
 .main {
   height: 62px; 
-  background-color: #F0A83E; 
+  background-color: #F0A83E;   
 }
 
 .mainChild {
@@ -65,4 +65,140 @@
   justify-content: center; 
   background-color: #84cfa3; 
 }
+
+.containerProducts {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;  
+  align-items: center; 
+  margin-top: 25px; 
+}
+
+.titleProducts {
+  font-weight: 700;  
+  font-size: 3rem;
+  margin-top: 20px;   
+}
+
+.containerItemsProdusts { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 23px; 
+}
+
+.itemProduct {
+  margin-right: 20px; 
+  font-size: 15px; 
+}
+
+.itemMiddle {
+  margin: 0 20px;
+  font-size: 15px; 
+}
+
+.itemEnd {
+  margin-left: 20px;  
+  font-size: 15px; 
+}
+
+.containerCards {
+  margin-top: 50px; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.contianerCardsChild {
+  background-color: #FBFAF6; 
+  margin-bottom: 80px; 
+  margin-right: 22px; 
+} 
+
+.contianerCardsChildLast {
+  background-color: #FBFAF6; 
+  margin-bottom: 80px;   
+}
+
+.titleChurrasquito {
+  margin-bottom: 5px; 
+}
+
+.divChurrasquito {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;     
+  align-items: center;  
+  background-color: #FBFAF6;  
+  height: 50px; 
+}
+
+.continerInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.divContato {
+  text-align: center; 
+  font-size: 25px; 
+  font-weight: 700; 
+  margin-bottom: 20px; 
+}
+
+.inputSpacing { 
+  margin-bottom: 10px; 
+}
+
+.inputSpacingg {
+  margin-bottom: 50px; 
+}
+
+.inputCustom { 
+  width: 340px; 
+  height: 40px;  
+  border-radius: 1rem;   
+  background-color: #3C2313;  
+  border: none; 
+  padding-left: 1rem; 
+  color: #fff;
+}
+
+.limpar {
+  width: 110px;
+  height: 34px; 
+  border-radius: 1rem;
+  margin-right: 7px;  
+  background-color: #8A8787; 
+  border: none;  
+  color: #fff; 
+  cursor: pointer;
+}
+
+.enviar {
+  width: 110px;
+  height: 34px; 
+  border-radius: 1rem;
+  background-color: #F0A83E; 
+  border: none;   
+  color: #fff; 
+  cursor: pointer;    
+}
+
+.footer {
+  margin-top: 83px; 
+  background-color: #F0A83E;  
+}
+
+.footerChild {
+  display: flex; 
+  justify-content: flex-start;  
+  align-items: center; 
+  width: 1024px; 
+  height: 60px; 
+  margin: 0 auto;
+}
+
+
 
