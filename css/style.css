@@ -60,3 +60,9 @@
   margin-right: 3px; 
 }
 
+.image {  
+  display: flex;
+  justify-content: center; 
+  background-color: #84cfa3; 
+}
+
