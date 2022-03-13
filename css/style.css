@@ -334,6 +334,10 @@
   .contianerCardsChild {
    margin-right: 0px;  
   }
+
+  .imageChild {
+    width: 100%;    
+  }
 }
 
 
