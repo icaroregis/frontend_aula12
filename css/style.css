@@ -1,6 +1,7 @@
+/*************** Header *********************/ 
 .header {
   height: 22px;  
-  background-color: #222222;  
+  background-color: #222222;   
 }
 
 .headerChild {
@@ -12,13 +13,14 @@
   align-items: center; 
 }
 
-.ofertas {
+.ofertas { 
   color: #F3F3F3;
   font-size: 10px;
   font-weight: 400;  
 }
 
-/***main***/
+/******** main *******/  
+
 .main {
   height: 62px; 
   background-color: #F0A83E;   
@@ -63,7 +65,7 @@
 .image {  
   display: flex;
   justify-content: center; 
-  background-color: #93d8ac;   
+  background-color: #a5debb;    
 }
 
 .containerProducts {
@@ -186,7 +188,7 @@
   cursor: pointer;    
 }
 
-/***** Footer ******/ 
+/********* Footer **********/  
 
 .footer {
   margin-top: 83px; 
@@ -195,12 +197,185 @@
 
 .footerChild {
   display: flex; 
-  justify-content: flex-start;  
+  justify-content: space-between;   
   align-items: center; 
   width: 1024px; 
   height: 60px; 
   margin: 0 auto;
 }
+
+.conteudoFooter {
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+.correio {
+  margin-right: 10px;  
+}
+
+.divButtonAndInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.ButtonEnviar {
+  width: 70px; 
+  height: 34px; 
+  background-color: #3C2313; 
+  border-radius: 1rem; 
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  margin-left: 10px; 
+} 
+
+.inputNovidades {
+  width: 271px;
+  height: 40px; 
+  border-radius: 1rem; 
+  border: none; 
+  color: #A0A0A0;
+  padding-left: 1rem; 
+} 
+
+.contatos {
+  background-color: #3C2313;  
+  padding: 30px 0;
+}
+
+.containerContatos { 
+  width: 1024px;  
+  margin: 0 auto;  
+}
+
+.contatosChild {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;   
+}
+
+.contatosChildd {
+  display: flex;
+  align-items: flex-start;
+}
+
+.imageContatos {
+  margin-right: 30px; 
+}
+
+.descriptionLocation {
+  margin-top: 3px; 
+  color: #fff; 
+  margin-bottom: 3px; 
+  font-size: 20px; 
+}
+
+.descriptionLocationChild {
+  color: #8A8787;
+  font-size: 11px;  
+}
+
+.containerMasterContatos {
+  width: 1024px; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.headerChildd { 
+  width: 1024px;
+  height: 22px;  
+  margin: 0 auto;  
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.titleNovidades {
+  color: #fff;
+}
+
+/************* mobile ******************/
+@media(max-width: 730px) { 
+  .footerChild {
+    flex-direction: column; 
+    height: 101px;  
+  }
+
+  .divButtonAndInput {
+    margin-bottom: 10px; 
+  }
+
+  .conteudoFooter {
+    justify-content: flex-start;   
+    margin-right: 49px;   
+  }
+
+  .containerMenu {
+    flex-direction: column; 
+  }
+
+  .containerMasterContatos {
+    flex-direction: column; 
+  }
+
+  .ContainerContatos {
+    order: 1
+  }
+
+  .ContainerContatosTwo {
+    order: -1;
+    margin-bottom: 30px;  
+  } 
+
+  .contianerCardsChild {
+   margin-right: 0px;  
+  }
+}
+
+
+@media(max-width: 1050px) {
+  .headerChild {
+    width: 90%; 
+  }
+
+  .imageChild {
+    width: 110%;   
+  }
+
+  .mainChild {
+    width: 90%; 
+  }
+
+  .footerChild {
+    width: 90%;  
+  } 
+
+  .containerContatos  {
+    width: 90%; 
+  }
+
+  .containerMasterContatos {
+    width: 90%;  
+  }
+
+  .containerCards {
+    flex-wrap: wrap; 
+  }
+
+  .headerChildd { 
+    width: 90%; 
+  }
+
+  .titleProducts {
+    text-align: center; 
+  }
+}
+
+
 
 
 
