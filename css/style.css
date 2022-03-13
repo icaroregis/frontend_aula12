@@ -338,6 +338,10 @@
   .imageChild {
     width: 100%;    
   }
+
+  .inputNovidades {
+    width: 240px; 
+  }
 }
 
 
