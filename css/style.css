@@ -336,7 +336,7 @@
   }
 
   .imageChild {
-    width: 100%;    
+    width: 90%;       
   }
 
   .inputNovidades {
@@ -347,11 +347,11 @@
 
 @media(max-width: 1050px) {
   .headerChild {
-    width: 90%; 
+    width: 90%;  
   }
 
   .imageChild {
-    width: 110%;   
+    width: 90%;    
   }
 
   .mainChild {
