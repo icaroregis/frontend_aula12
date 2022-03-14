@@ -114,11 +114,11 @@
 .contianerCardsChild {
   background-color: #FBFAF6; 
   margin-bottom: 80px; 
-  margin-right: 22px; 
+  margin-right: 22px;   
 } 
 
 .contianerCardsChildLast {
-  background-color: #FBFAF6; 
+  background-color: #FBFAF6;  
   margin-bottom: 80px;   
 }
 
@@ -311,12 +311,8 @@
 
   .conteudoFooter {
     justify-content: flex-start;    
-    margin-right: 49px;   
-  }
-
-  .containerMenu {
-    flex-direction: column; 
-  }
+    margin-right: 49px;      
+  } 
 
   .containerMasterContatos {
     flex-direction: column; 
@@ -331,10 +327,6 @@
     margin-bottom: 30px;  
   } 
 
-  .contianerCardsChild {
-   margin-right: 0px;  
-  }
-
   .imageChild {
     width: 90%;       
   }
@@ -342,8 +334,11 @@
   .inputNovidades {
     width: 240px; 
   }
-}
 
+  .contianerCardsChild {
+    margin-right: 0; 
+  }
+} 
 
 @media(max-width: 1050px) {
   .headerChild {
