@@ -299,47 +299,6 @@
 }
 
 /************* mobile ******************/
-@media(max-width: 730px) { 
-  .footerChild {
-    flex-direction: column; 
-    height: 101px;  
-  }
-
-  .divButtonAndInput {
-    margin-bottom: 10px; 
-  }
-
-  .conteudoFooter {
-    justify-content: flex-start;    
-    margin-right: 49px;      
-  } 
-
-  .containerMasterContatos {
-    flex-direction: column; 
-  }
-
-  .ContainerContatos {
-    order: 1
-  }
-
-  .ContainerContatosTwo {
-    order: -1;
-    margin-bottom: 30px;  
-  } 
-
-  .imageChild {
-    width: 90%;       
-  }
-
-  .inputNovidades {
-    width: 240px; 
-  }
-
-  .contianerCardsChild {
-    margin-right: 0; 
-  }
-} 
-
 @media(max-width: 1050px) {
   .headerChild {
     width: 90%;  
@@ -376,6 +335,60 @@
   .titleProducts {
     text-align: center; 
   }
+}
+
+@media(max-width: 853px) {
+  .contianerCardsChild:first-child {      
+    margin-left: 22px;      
+  }   
+}
+
+@media(max-width: 730px) { 
+  .footerChild {
+    flex-direction: column; 
+    height: 101px;  
+  }
+
+  .divButtonAndInput {
+    margin-bottom: 10px; 
+  }
+
+  .conteudoFooter {
+    justify-content: flex-start;    
+    margin-right: 49px;      
+  } 
+
+  .containerMasterContatos {
+    flex-direction: column; 
+  }
+
+  .ContainerContatos {
+    order: 1
+  }
+
+  .ContainerContatosTwo {
+    order: -1;
+    margin-bottom: 30px;  
+  } 
+
+  .imageChild {
+    width: 90%;       
+  }
+
+  .inputNovidades {
+    width: 240px; 
+  } 
+} 
+
+@media(max-width: 567px) { 
+  .contianerCardsChild:first-child {
+    margin-right: 22px;  
+  }  
+
+  #specialContainer {
+    position: relative;  
+    left: 12px; 
+  } 
 }
 
 
