@@ -298,6 +298,10 @@
   color: #fff;
 }
 
+.buttonMenuHeader { 
+  display: none; 
+}
+
 /************* mobile ******************/
 @media(max-width: 1050px) {
   .headerChild {
@@ -380,7 +384,16 @@
   } 
 } 
 
-@media(max-width: 567px) { 
+@media(max-width: 650px) { 
+  .navHeaderMenu {
+    display: none; 
+  } 
+  .buttonMenuHeader {
+    display: block;  
+  }  
+}
+
+@media(max-width: 567px) {  
   .contianerCardsChild:first-child {
     margin-right: 22px;  
   }  
