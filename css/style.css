@@ -49,6 +49,11 @@
   color: #fff;
 }
 
+.linkItem {
+  text-decoration: none; 
+  color: #fff; 
+}
+
 .menuItems {
   display: flex; 
   justify-content: center;  
@@ -388,9 +393,49 @@
   .navHeaderMenu {
     display: none; 
   } 
+
   .buttonMenuHeader {
     display: block;  
   }  
+
+  .showMenu.on {
+    width: 100vw;
+    height: 100vh; 
+    position: absolute;
+    top: 0;
+    left: 0; 
+    background-color: #F0A83E; 
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .on .navHeaderMenu {       
+    display: block;  
+  }
+
+  .on .buttonMenuHeader {
+    position: absolute;
+    right: 20px;    
+    top: 42px; 
+  }
+
+  .on .containerMenu {
+    display: block; 
+  }
+
+  .on .menuItem {
+    margin-bottom: 70px; 
+    font-size: 20px; 
+    font-weight: 800;   
+  }
+
+  .on .menuItems { 
+    margin-bottom: 100px;
+    font-size: 20px; 
+    font-weight: 800;   
+  }
 }
 
 @media(max-width: 567px) {  
