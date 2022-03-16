@@ -409,6 +409,7 @@
     display: flex;
     justify-content: center;
     align-items: center; 
+    transition-duration: 0.5s; 
   }
 
   .on .navHeaderMenu {       
@@ -429,13 +430,15 @@
     margin-bottom: 70px; 
     font-size: 20px; 
     font-weight: 800;   
+    transition-duration: 0.5s; 
   }
 
   .on .menuItems { 
     margin-bottom: 100px;
     font-size: 20px; 
-    font-weight: 800;   
-  }
+    font-weight: 800; 
+    transition-duration: 0.5s;   
+  } 
 }
 
 @media(max-width: 567px) {  
