@@ -305,6 +305,7 @@
 
 .buttonMenuHeader { 
   display: none; 
+  cursor: pointer; 
 }
 
 /************* mobile ******************/
