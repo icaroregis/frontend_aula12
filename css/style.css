@@ -420,6 +420,7 @@
     position: absolute;
     right: 20px;    
     top: 42px; 
+    cursor: pointer; 
   }
 
   .on .containerMenu {
